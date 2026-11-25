@@ -1,0 +1,24 @@
+{
+  "edition": "202601",
+  "entrypoint": "index.html",
+  "min_sdk_version": "0.0.16",
+  "name": "Glance",
+  "package_id": "com.ipan8.glance",
+  "permissions": [
+    {
+      "desc": "Fetches the Telegram digest from the Glance backend.",
+      "name": "network",
+      "whitelist": [
+        "http://localhost:3101"
+      ]
+    },
+    {
+      "desc": "Voice replies via the glasses microphone.",
+      "name": "g2-microphone"
+    }
+  ],
+  "supported_languages": [
+    "en"
+  ],
+  "version": "0.1.0"
+}
